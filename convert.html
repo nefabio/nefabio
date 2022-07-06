@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Convert EUR TO USD | by Mast1k</title>
+    <style>
+        body {
+            font-weight: bold;
+            font-family: Arial;
+            color: white;
+            background-color: rgb(65, 63, 66);
+        }
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            border: unset;
+            border-bottom: 2px solid #e3e3e3;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Money Convert</h1>
+    <p style="text-align: center;">
+        <input type="number" id="money" placeholder="€" oninput="moneyConverter(this.value)" onchange="moneyConverter(this.value)">
+    </p>
+    <p style="text-align: center;">USD: <span id="outputdol"></span></p>
+</body>
+<script src="convert.js"></script>
+</html>
